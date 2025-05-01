@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tadzio — A Canvas of Becoming</title>
+    <meta name="description" content="Digital journal and portfolio exploring identity and transformation">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script>document.documentElement.classList.remove('no-js');</script>
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="main-header">
+        <div class="container">
+            <div class="branding">
+                <h1 class="site-title">Tadzio</h1>
+                <p class="site-subtitle sr-only">A Canvas of Becoming</p>
+            </div>
+            <nav class="main-nav" aria-label="Primary navigation">
+                <button class="menu-toggle" aria-expanded="false" aria-controls="nav-menu">
+                    <span class="hamburger" aria-hidden="true"></span>
+                    <span class="sr-only">Menu</span>
+                </button>
+                <ul id="nav-menu" class="nav-menu">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#journal" class="nav-link">Journal</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="main-content">
+        <section id="about" class="section fade-in">
+            <div class="container flow">
+                <h2 class="section-title">About Tadzio</h2>
+                <div class="content-wrapper">
+                    <p>This is a digital journal and portfolio exploring identity and transformation. Welcome to the journey.</p>
+                </div>
+            </div>
+        </section>
+        <section id="journal" class="section fade-in">
+            <div class="container flow">
+                <h2 class="section-title">Journal Entries</h2>
+                <div class="journal-entries">
+                    <article class="journal-card">
+                        <h3 class="entry-title">First Entry</h3>
+                        <time class="entry-date" datetime="2023-09-20">September 20, 2023</time>
+                        <div class="entry-content">
+                            <p>The first steps into self-awareness echo like waves on a distant shore.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="gallery" class="section fade-in">
+            <div class="container">
+                <h2 class="section-title">Gallery</h2>
+                <div class="gallery-grid">
+                    <figure class="gallery-item">
+                        <img src="images/sample.jpg" alt="Artwork 1" loading="lazy" class="gallery-image">
+                        <figcaption class="image-caption sr-only">Sample artwork description</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section fade-in">
+            <div class="container flow">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact-content">
+                    <p class="contact-email">Email: <a href="mailto:your_email@example.com">your_email@example.com</a></p>
+                    <form class="contact-form" id="contact-form">
+                        <input type="text" name="name" required placeholder="Your Name">
+                        <input type="email" name="email" required placeholder="Your Email">
+                        <textarea name="message" required placeholder="Your Message"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2023 Tadzio. All rights reserved.</p>
+            <nav class="footer-nav" aria-label="Secondary navigation">
+                <ul class="footer-links">
+                    <li><a href="#privacy">Privacy</a></li>
+                    <li><a href="#terms">Terms</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="tadzio.js"></script>
+</body>
+</html>
